@@ -13,16 +13,6 @@ The model interprets the request and converts it into a **structured API call** 
 
 ---
 
-# 🚀 Project Goals
-
-- Natural language interaction with health devices
-- Structured function calling for health APIs
-- Edge-friendly lightweight models
-- Privacy-first local inference
-- OTA updatable LoRA adapters
-
----
-
 # 📦 Model Collection
 
 This repository hosts multiple **fine-tuned lightweight models** optimized for health data function calling.
@@ -30,11 +20,8 @@ This repository hosts multiple **fine-tuned lightweight models** optimized for h
 | Model | Base Model | Adapter Size | Format | Hugging Face |
 |------|------------|-------------|--------|--------------|
 | **HealthFunc-LM-L3** | Llama-3.2-3B | ~10MB | GGUF | https://huggingface.co/yourname/healthfunc-lm-l3 |
-| **HealthFunc-LM-Phi** | Phi-3 Mini | ~12MB | GGUF | https://huggingface.co/yourname/healthfunc-lm-phi |
-| **HealthFunc-LM-Qwen** | Qwen2-1.5B | ~9MB | GGUF | https://huggingface.co/yourname/healthfunc-lm-qwen |
-| **HealthFunc-LM-TinyLlama** | TinyLlama-1.1B | ~8MB | GGUF | https://huggingface.co/yourname/healthfunc-lm-tinyllama |
 
-All models are optimized for:
+Model is optimized for:
 
 - Function calling
 - Temporal reasoning
@@ -43,9 +30,7 @@ All models are optimized for:
 
 ---
 
-# ⚡ Key Features
-
-## 🧠 Reason → Act Pipeline
+# Features
 
 The models follow a simple reasoning pipeline:
 
