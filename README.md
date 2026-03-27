@@ -15,11 +15,10 @@ The model interprets the request and converts it into a **structured API call** 
 
 # 📦 Model Collection
 
-This repository hosts multiple **fine-tuned lightweight models** optimized for health data function calling.
 
-| Model | Base Model | Adapter Size | Format | Hugging Face |
-|------|------------|-------------|--------|--------------|
-| **HealthFunc-LM-L3** | Llama-3.2-3B | ~10MB | GGUF | https://huggingface.co/yourname/healthfunc-lm-l3 |
+| Model | Base Model | Model Size | Adapter Size | Format | Hugging Face |
+|------|------------|-------------|--------|--------------|---------------|
+| **health_function_call_llama3.2_3b_gguf** | Llama-3.2-3B | 2 GB | ~10MB | GGUF | [https://huggingface.co/yourname/healthfunc-lm-l3](https://huggingface.co/ramgovindv/health_function_call_llama3.2_3b_gguf) |
 
 Model is optimized for:
 
